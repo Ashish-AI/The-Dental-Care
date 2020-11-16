@@ -1,0 +1,355 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.site-header
+{
+	width: 100%;
+	height:100vh; 
+	background: linear-gradient(57deg,#00c6a7,#1e4d92);
+	clip-path: polygon(0% 0%,100% 0%,100% 85%,0% 100%);
+}
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	color: white;
+}
+.logo
+{
+	width: 50%;
+	height: 100px;line-height: 100px;
+}
+
+.logo h1{
+	line-height: 100px;
+	padding-left: 50px;
+}
+
+.menu
+{
+	width: 50%;
+	height: 100px;
+
+}
+.btnbook
+{
+	outline: none;
+	border:none;
+}
+
+
+.menu ul{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.menu ul li
+{
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu ul li:hover{
+	font-size: 14px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover
+{
+	color: #e74c3c
+}
+
+section
+{
+	display: flex;
+
+}
+
+.left-side
+{
+	width: 45%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 20px;
+
+}
+
+.left-side img
+{
+	width: 600px;
+	height: 500px;
+}
+
+.right-side
+{
+	width: 55%;
+	height: 300px;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	padding:40px;
+
+}
+
+.right-side h1{
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+
+}
+.right-side p{
+	font-size: 1.1rem;
+	padding: 30px 0;
+}
+
+.right-side button{
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	background: linear-gradient(57deg,#00c6a7,#1e4d92);
+	border-radius: 4px;
+	padding: 20px 35px;
+
+}
+.right-side button:hover{
+	background:  linear-gradient(57deg,#1e4d92,#00c6a7);
+}
+.images
+{
+	border-radius: 150px 500px;
+	background: #e4f1fe;
+}
+.serv-text
+{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.firstlayer
+{
+	display: flex;
+	margin-left:320px;
+	margin-right: 320px;
+	margin-top: 30px;
+}
+
+.img1{
+	height: 150px;
+	width: 200px;
+	cursor: pointer;
+}
+.first
+{
+	width: 33%;
+}
+
+.second
+{
+	width: 33%;
+}
+
+.third
+{
+	width: 33%;
+}
+
+.secondlayer
+{
+	display: flex;
+	margin-left:320px;
+	margin-right: 320px;
+	margin-top: 30px;
+
+}
+.thirdlayer{
+	display: flex;
+	margin-left:320px;
+	margin-right: 320px;
+	margin-top: 30px;
+
+}
+
+
+.modal-wrapper
+{
+
+	height: 800px;
+	width: 700px;
+	border:2px solid black;
+	background-color: #63a4ff;
+	background: white;
+	color :black;
+	margin: 0px auto;
+	opacity: 0;
+	position: absolute;
+    left: 30%;
+    top: 50%; 
+    margin-left: -100px;
+    margin-top: 400px;
+	pointer-events: none;
+	transition: all .3s ease-in-out;
+}
+
+.modal-container1
+{
+	transform: translateY(-100%);
+	transition: all .3s ease-in-out;
+
+}
+
+.img2
+{
+	padding-top: 30px;
+	height: 300px;
+	width: 350px;
+
+}
+
+.close1
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.close2
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.close3
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.close4
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.close5
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+.close6
+{
+	font-size: 60px;
+	text-align: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+
+.project
+{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.description
+{
+	text-align: center;
+	padding: 30px 90px;
+}
+.close-btn1 
+{
+	padding-top: 30px;
+	text-align: center;
+	
+}
+.close-btn1 :hover{
+	cursor: pointer;
+}
+
+.close-btn2 
+{
+	padding-top: 30px;
+	text-align: center;	
+}
+.close-btn2 :hover{
+	cursor: pointer;
+}
+
+.close-btn3 
+{
+	padding-top: 30px;
+	text-align: center;
+}
+.close-btn3 :hover{
+	cursor: pointer;
+}
+.close-btn4
+{
+	padding-top: 30px;
+	text-align: center;
+}
+.close-btn4 :hover{
+	cursor: pointer;
+}
+.close-btn5 
+{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.close-btn5 :hover{
+	cursor: pointer;
+}
+.close-btn6
+{
+	padding-top: 30px;
+	text-align: center;
+}
+.close-btn6 :hover{
+	cursor: pointer;
+}
+
+.proList
+{
+	text-align: center;
+}
+.proList li
+{
+	list-style: none;
+}
+
+.active{
+	opacity: 1;
+	pointer-events: auto;
+
+}
+.modal-container1
+{
+	transform: translateY(0px);
+}
+
+.imglist
+{
+	padding: 5px;
+	list-style: none;
+	text-align: center;
+}
